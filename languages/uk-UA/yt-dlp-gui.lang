@@ -3,11 +3,11 @@ AppName: yt-dlp-gui
 # Window - Main
 Main:
   # Top Menu
-  About: Про...
+  About: Про програму...
   # Tabs Label
-  Main: Основне
+  Main: Головна
   Advance: Розширені
-  Options: Налаштування
+  Options: Опції
   # Main Tab
   Url: Посилання
   Title: Назва
@@ -19,14 +19,14 @@ Main:
   Browse: Вибрати
   Download: Завантажити
   Record: Записати
-  Cancel: Відмінити
-  Stop: Стоп
+  Cancel: Скасувати
+  Stop: Зупинити
   # Main Tab - Thumbnail
   SaveAs: Зберегти як...
   Thumbnail: Мініатюра
   # Main Tab - Chapters
   Chapters: Розділи
-  ChaptersNone: '[Нема]'
+  ChaptersNone: '[Немає]'
   ChaptersAll: '[Всі]'
   ChaptersSplite: '[Поділ за розділами]'
   # Main Tab - Video
@@ -34,47 +34,47 @@ Main:
   VideoRes: Якість
   VideoDynamicRange: DR
   VideoFPS: FPS
-  VideoExt: Ext
+  VideoExt: Ext.
   VideoCodec: Кодек
   VideoSize: Розмір
   # Main Tab - Audio
   Audio: Аудіо
   AudioSampleRate: ASR
-  AudioExt: Ext
+  AudioExt: Ext.
   AudioCodec: Кодек
   AudioSize: Розмір
   # Main Tab - Subtitle
   Subtitle: Субтитри
   SubtitleIgnore: '[Ігнорувати]'
-  SubtitleNone: '[Нема]'
+  SubtitleNone: '[Немає]'
   # Advance Tab - Configuration
   Configuration: Конфігурація
-  ConfigurationNone: '[Нема]'
+  ConfigurationNone: '[Немає]'
   # Advance Tab - Proxy
   Proxy: Проксі
   ProxyEnabled: Увімкнено
   ProxyHelper: socks5://user:pass@127.0.0.1:1080/
   # Advance Tab - Cookie
   Cookie: Cookie
-  CookieWhenNeeded: Коли потрібно
+  CookieWhenNeeded: За потреби
   CookieNever: Ніколи
   CookieAlways: Завжди
-  CookieAsk: Запитати
-  CookieUse: Використати
+  CookieAsk: Запитувати
+  CookieUse: Використовувати
   # Advance Tab - Aria2
   Aria2: Aria2
   Aria2Enabled: Увімкнено
   # Advance Tab - Embeds
-  Embeds: Вставки
+  Embeds: Вбудовування
   EmbedsThumbnail: Мініатюра
   EmbedsChapters: Розділи
   EmbedsSubtitles: Субтитри
   # Advance Tab - Time Range
-  TimeRange: Часовий діапазон
+  TimeRange: Діапазон часу
   TimeRangeHits: --download-sections
   TimeRangeHelper: '*10:15-15:00'
   # Advance Tab - Limit Rate
-  LimitRate: Ліміт
+  LimitRate: Обмеження
   LimitRateHelper: 50K або 4.2M
   # Advance Tab - Mdified
   Modified: Змінено
@@ -85,19 +85,19 @@ Main:
   Notifications: Сповіщення
   NotificationsEnabled: Увімкнено
   NotificationsSound: Звук сповіщень
-  SoundDefault: Стандартно
-  SoundSystem: Система
+  SoundDefault: Типовий
+  SoundSystem: Системний
   SoundBrowse: Вибрати...
   # Options Tab - Always On Top
-  AlwaysOnTop: Завжди на передньому плані
+  AlwaysOnTop: Поверх інших вікон
   AlwaysOnTopEnabled: Увімкнено
   # Options Tab - Remember Window State
-  RememberWindowState: Запам'ятати стан вікна
+  RememberWindowState: Запам'ятовувати стан вікна
   RememberWindowPosition: Позиція
   RememberWindowSize: Розмір
   Scale: Масштаб
   # Options Tab - Automatically download
-  AutoDownload: Завантажити автоматично
+  AutoDownload: Автоматично завантажувати
   AutoDownloadAnalysed: Після аналізу
   # Options Tab - Temporary folder
   TemporaryFolder: Тимчасова папка
@@ -115,16 +115,16 @@ About:
   #   label1: content
   #   label2: url
   Extends:
-    Переклав: Noob-Lol
+    Переклав: Noob
     Профіль: https://github.com/Noob-Lol
 # Window - Release
 Releases:
   Releases: Релізи
   Loading: Завантаження...
-  NoUpdated: Нових оновлень не знайдено.
+  NoUpdated: Наразі немає оновленої версії.
 # Dialog, Popups
 Dialog:
-  CookieRequired: Cookies необхідні, використати їх?
+  CookieRequired: Cookies необхідні, використовувати?
   FileExist: Файл вже існує. Перезаписати його?
   DownloadCompleted: Завантаження відео завершено!
   OpenFolder: Відкрити папку
@@ -168,4 +168,4 @@ Status:
   Native: Вбудований
   Downloading: Завантаження
   Downloaded: Завантажено
-  Done: Виконано
+  Done: Завершено
